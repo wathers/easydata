@@ -16,4 +16,12 @@
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.chen.easydata</groupId>
+            <artifactId>easydataEvent-spring-boot-starter</artifactId>
+            <version>${spring-boot.version}</version>
+        </dependency>
+    </dependencies>
+
 </project>
